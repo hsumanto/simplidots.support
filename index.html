@@ -31,14 +31,25 @@
 
         <style>
         .order-waiting-delivery {
-            color:gray;
+            color:#02aca6;
         }    
         .order-on-delivery {
-            color:dodgerblue;
+            color:#fdb207;
         }    
         .order-delivered {
-            color:limegreen;
+            color:#42b74c;
         }    
+        .payment-completed {
+            color:#42b74c;
+        }
+        .payment-active {
+            color:#fdb207;
+        }
+        .payment-cancelled {
+            color:#e7342e;
+        }
+
+
         .faqHeader {
             font-size: 20px;
             margin: 20px;
@@ -147,9 +158,9 @@
                                     <br/>
                                     <br/>
                                     <li>
-                                        Masukkan User dan Password
+                                        Masukkan Nomor Hp dan Password
                                     </li>
-                                    <img src="images/retail/login.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/login_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
                                     <li>
@@ -178,33 +189,22 @@
                                     <li>
                                         Pada tampilan login, klik tombol <code>Register Now</code>
                                     </li>
-                                    <img src="images/retail/login.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/login_120.png" class="img-mobile img-thumbnail">
 
                                     <br/>
                                     <br/>
                                     <li>
-                                        Masukkan nomor hp, referral key, password dan confirm password
+                                        Masukkan nama, nomor hp, referral key, password dan confirm password
                                     </li>
-                                    <img src="images/retail/register.jpg" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/register_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
                                     <p>* <b>Referral key</b> didapatkan dari salesman</p>
+                                    <p>* <b>Phone Number</b> yang digunakan saat register digunakan juga sebagai phone number untuk login</p>
 
                                     <li>
                                         Klik tombol <code>Register</code>
                                     </li>
-
-                                    <br />
-                                    <li>
-                                        Tampilan jika berhasil register
-                                    </li>
-                                    <img src="images/retail/register_success.jpg" class="img-mobile img-thumbnail">
-
-                                    <br />
-                                    <li>
-                                        Tampilan jika gagal register
-                                    </li>
-                                    <img src="images/retail/register_failed.jpg" class="img-mobile img-thumbnail">
                                 </ol>
                             </div>
                         </div>
@@ -222,7 +222,7 @@
                                     <li>
                                         Pada halaman register, pilih icon <code>QR Code</code> di samping kolom referral key
                                     </li>
-                                    <img src="images/retail/register.jpg" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/register_120.png" class="img-mobile img-thumbnail">
 
                                     <br/>
                                     <br/>
@@ -244,7 +244,7 @@
                                     <li>
                                         Jika berhasil, referral key akan otomatis terisi, jika tidak, berarti scan QR Code nya gagal, silahkan ulangi lagi
                                     </li>
-                                    <img src="images/retail/scan_qr_code_success.jpg" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/scan_qr_code_success_120.png" class="img-mobile img-thumbnail">
 
                                 </ol>
                             </div>
@@ -261,28 +261,35 @@
                             <div class="card-body">
                                 <ol>
                                     <li>
-                                        Di tab <code>Products</code> pilih produk yang mau dipesan dan klik <code>Order</code>
+                                        Di tab <code>Products</code> pilih produk yang mau dipesan dan klik tombol <code> Cart / Order</code> (warna merah)
                                     </li>
-                                    <img src="images/retail/order.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/order_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
                                     <li>
-                                        Masukkan qty yang mau dipesan kemudian klik <code>Add</code>
+                                        Sesuaikan masing-masing <code>qty produk</code> yang mau dipesan kemudian klik <code>Save</code>
                                     </li>
-                                    <img src="images/retail/quantity.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/quantity_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
                                     <li>
-                                        Ketika produk berhasil dipesan akan muncul popup <code>Product is successfully added to cart</code>
+                                        Ketika produk berhasil disimpan maka akan muncul popup dengan pesan seperti digambar 
                                     </li>
-                                    <img src="images/retail/added.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/added_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
                                     <li>
-                                        Ketika selesai, klik tab <code>Cart</code>, cek pesanan kemudian klik <code>Create Order</code> untuk kirim pesanan ke distributor
+                                        Ketika sudah siap memilih produk yang mau dipesan, klik tab <code>Cart</code>.<br>
+                                        Cek pesanan, pastikan delivery time / <strong>tanggal pengiriman dan alamat pengiriman</strong> sudah sesuai, kemudian klik <code>Create Order</code> untuk membuat pesanan
                                     </li>
                                     <br/>
-                                    <img src="images/retail/create-order.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/create-order_120.png" class="img-mobile img-thumbnail">
+                                    <br/>
+                                    <br/>
+                                    <li>
+                                        Orderan berhasil dibuat 
+                                    </li>
+                                    <img src="images/retail/create-order-success_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
                                 </ol>
@@ -302,7 +309,7 @@
                                     <li>
                                         Di tab <code>Cart</code> geser / swipe ke kiri atau ke kanan product yg mau dihapus
                                     </li>
-                                    <img src="images/retail/delete_item_in_cart.jpg" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/delete_item_in_cart_120.png" class="img-mobile img-thumbnail">
 
                                     <br/>
                                     <br/>
@@ -310,8 +317,7 @@
                                        Di halaman konfirmasi <code>Delete Item</code> silahkan pilih <code>Yes</code> untuk melanjutkan menghapus product atau 
                                        pilih <code>No</code> untuk membatalkan menghapusnya
                                     </li>
-                                    <img src="images/retail/delete_item_in_cart.jpg" class="img-mobile img-thumbnail">
-
+                                    <img src="images/retail/delete_item_in_cart_confirm_120.png" class="img-mobile img-thumbnail">
                                 </ol>
                             </div>
                         </div>
@@ -329,15 +335,31 @@
                                     <li>
                                         Di tab <code>Profile</code> kemudian klik <code>Order History</code>
                                     </li>
-                                    <img src="images/retail/order-history.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/order-history_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
                                     <li>
-                                        Kemudian pilih pesanan yang mau dicek
+                                        Secara default seluruh pesanan akan ditampilkan disini
                                     </li>
-                                    <img src="images/retail/order-status.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/order-history-all_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
+                                    <li>
+                                        Jika hanya ingin melihat pesanan tertentu <strong>berdasarkan statusnya</strong>, silahkan pilih tab status pesanan yang mau ditampilkan
+                                    </li>
+                                    <img src="images/retail/order-history-filter_120.png" class="img-mobile img-thumbnail">
+                                    <br/>
+                                    <br/>
+                                    <li>
+                                        Atau bisa juga menggunakan fitur <code>search</code> jika hanya ingin menampilkan pesanan berdasarkan <strong>nomor ordernya</strong>
+                                    </li>
+                                    <img src="images/retail/order-history-search_120.png" class="img-mobile img-thumbnail">
+                                    <br/>
+                                    <br/>
+                                    <li>
+                                        Setelah itu, silahkan pilih pesanan yang mau dilihat detail nya
+                                    </li>
+                                    <img src="images/retail/order-history-detail_120.png" class="img-mobile img-thumbnail">
                                     </ol>
                             </div>
                         </div>
@@ -352,17 +374,38 @@
                             <div class="card-body">
                                 <ol>
                                     <li>
-                                        Di tab <code>Profile</code> kemudian klik <code>Payment History</code>
+                                        Di tab <code>Profile</code> klik <code>Payment History</code>
                                     </li>
-                                    <img src="images/retail/payment-history.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/payment-history_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
                                     <li>
-                                        Kemudian pilih payment yang mau dicek
+                                        Secara default seluruh pembayaran akan ditampilkan disini
                                     </li>
-                                    <img src="images/retail/payment-status.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/payment-history-all_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
+                                    <li>
+                                        Jika hanya ingin melihat pembayaran tertentu <strong>berdasarkan statusnya</strong>, silahkan pilih tab status pembayaran yang mau ditampilkan
+                                    </li>
+                                    <img src="images/retail/payment-history_filter_120.png" class="img-mobile img-thumbnail">
+                                    <br/>
+                                    <br/>
+                                    <li>
+                                        Atau bisa juga menggunakan fitur <code>search</code> jika hanya ingin menampilkan pembayaran berdasarkan <strong>nomor paymentnya</strong>
+                                    </li>
+                                    <img src="images/retail/payment-history_search_120.png" class="img-mobile img-thumbnail"><br/><br />
+                                    <li>
+                                        Atau bisa juga menampilkan berdasarkan <strong>metode pembayarannya</strong> 
+                                    </li>
+                                    <img src="images/retail/payment-history_search_by_payment_method_120.png" class="img-mobile img-thumbnail">
+                                    <br/>
+                                    <br/>
+                                    <li>
+                                        Setelah itu, silahkan pilih / klik pembayaran yang mau dilihat detail nya
+                                    </li>
+                                    <img src="images/retail/payment_history_detail_120.png" class="img-mobile img-thumbnail">
+                                    </ol>
                                 </ol>
                             </div>
                         </div>
@@ -377,15 +420,17 @@
                             <div class="card-body">
                                 <ol>
                                     <li>
-                                        Klik tab <code>Promo</code>, untuk cek promo, mulai dari periode dan sisa quota promo
+                                        Klik tab <code>Promo</code>, untuk cek promo, mulai dari periode dan produk apa saja yg berlaku promo tersebut
                                     </li>
-                                    <img src="images/retail/promo.png" class="img-mobile img-thumbnail">
+                                    <img src="images/retail/promo_120.png" class="img-mobile img-thumbnail">
                                     <br/>
                                     <br/>
                                     </ol>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Start QnA order history .:[SimpliDOTS Retail]:. -->
                     <div class="card ">
                         <div class="card-header">
                             <h5 class="card-header">
@@ -397,7 +442,7 @@
                                 Artinya pesanan Anda <strong class="order-waiting-delivery">sedang menunggu pengantaran</strong>
                                 <br/>              
                                 <br/>              
-                                <img src="images/retail/order-history.png" class="img-mobile img-thumbnail">
+                                <img src="images/retail/waiting_for_delivery_120.png" class="img-mobile img-thumbnail">
                             </div>
                         </div>
                     </div>
@@ -413,7 +458,7 @@
                                 Artinya pesanan Anda saat ini <strong class="order-on-delivery">sedang diantar</strong>
                                 <br/>
                                 <br/>              
-                                <img src="images/retail/order-on-delivery.png" class="img-mobile img-thumbnail">
+                                <img src="images/retail/order-on-delivery_120.png" class="img-mobile img-thumbnail">
                             </div>
                         </div>
                     </div>                    
@@ -429,11 +474,80 @@
                                 Artinya pesanan Anda <strong class="order-delivered">sudah terantar</strong>
                                 <br/>
                                 <br/>              
-                                <img src="images/retail/order-delivered.png" class="img-mobile img-thumbnail">
+                                <img src="images/retail/order-delivered_120.png" class="img-mobile img-thumbnail">
                             </div>
                         </div>
-                    </div>                    
+                    </div>  
+                    <!-- End QnA order history .:[SimpliDOTS Retail]:. -->
+                    
+                    <!-- Start QnA payment history .:[SimpliDOTS Retail]:. -->
+                    <div class="card ">
+                        <div class="card-header">
+                            <h5 class="card-header">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#payment-completed">Ketika pembayaran statusnya <strong class="payment-completed">Completed</strong>, itu artinya apa?</a>
+                            </h5>
+                        </div>
+                        <div id="payment-completed" class="panel-collapse collapse">
+                            <div class="card-body">                                
+                                Artinya pembayaran tersebut telah <strong class="payment-completed">diterima dan diverifikasi</strong> oleh admin.
+                                <br/>
+                                <br/>              
+                                <img src="images/retail/payment_completed_120.png" class="img-mobile img-thumbnail">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="card ">
+                        <div class="card-header">
+                            <h5 class="card-header">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#payment-active">Ketika pembayaran statusnya <strong class="payment-active">Active</strong>, itu artinya apa?</a>
+                            </h5>
+                        </div>
+                        <div id="payment-active" class="panel-collapse collapse">
+                            <div class="card-body">                                
+                                Artinya pembayaran tersebut telah <strong class="payment-active">diterima tetapi menunggu atau sedang diverifikasi</strong> oleh admin.
+                                <br/>
+                                <br/>              
+                                <img src="images/retail/payment_active_120.png" class="img-mobile img-thumbnail">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="card ">
+                        <div class="card-header">
+                            <h5 class="card-header">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#payment-cancelled">Ketika pembayaran statusnya <strong class="payment-cancelled">Cancelled</strong>, itu artinya apa?</a>
+                            </h5>
+                        </div>
+                        <div id="payment-cancelled" class="panel-collapse collapse">
+                            <div class="card-body">                                
+                                Artinya pembayaran tersebut telah <strong class="payment-cancelled">dibatalkan</strong>.
+                                <br/>
+                                <br/>              
+                                <img src="images/retail/payment_cancelled_120.png" class="img-mobile img-thumbnail">
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- End QnA payment history .:[SimpliDOTS Retail]:. -->
                 
+                    <!-- Start Localization .:[SimpliDOTS Retail]:. -->
+                    <div class="card ">
+                        <div class="card-header">
+                            <h5 class="card-header">
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#localization-retail">Apakah aplikasinya mendukung bahasa Indonesia?</a>
+                            </h5>
+                        </div>
+                        <div id="localization-retail" class="panel-collapse collapse">
+                            <div class="card-body">                                
+                                Ya, aplikasi kita mendukung bahasa Indonesia. Cara menggunakan versi bahasa Indonesia adalah dengan mengatur bahasa di pengaturan smartphone anda ke Bahasa Indonesia.
+                                <br/>
+                                <br/>              
+                                <img src="images/retail/localization_120.png" class="img-mobile img-thumbnail">
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- Start Localization SimpliDOTS Retail -->
+
                     <div class="faqHeader">Panduan menggunakan
                         <img src="images/monitoring/simplidots monotoring_logo.png" class="img-branding2" alt="SimpliDOTS Monitoring">
                     </div>
