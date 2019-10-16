@@ -1,20 +1,21 @@
-# Hacktoberfest SimpliDOTS Support Competition:
+# Kompetisi Hacktoberfest SimpliDOTS Support:
 
 ## Hadiah: 
-Powerbank boneka, very cute and suitable a present for boyfriend/girlfriend
+2 buah Powerbank boneka, sangat lucu, cocok untuk dijadikan hadiah buat pacar untuk 2 kontribusi terbaik menurut penilaian juri.
 
 ## Tantangan:
 
-Silahkan dicoba dan diterapkan apa saja yang bisa meningkatkan:
+Kami tantang kreativitas untuk meningkatkan SimpliDOTS Support dari segala sisi:
 
 - Fungsional 
 - Kemudahan untuk pakai
 - UI & UX
 - SEO & SMO
+- Any other idea is really appreciated
 
-Be creative, be adventurous, be brave and be ready to get rewarded.
+So be creative, be adventurous, be brave and be ready to get rewarded.
 
-Beberapa contoh kasus:
+Contoh-contoh skenario seperti di bawah ini tapi jangan batasi imaginasi dan kreativitas, kalian boleh buat skenario lain, it is more than welcome:
 
 1. Tambah fitur apa saja yg bisa mempermudah pengguna: 
 
