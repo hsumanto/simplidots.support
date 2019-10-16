@@ -1,6 +1,6 @@
 ## Kompetisi Hacktoberfest 2019 *SimpliDOTS Support*
 
-###Apa itu Hacktoberfest?
+### Apa itu Hacktoberfest?
 Hacktoberfest adalah acara tahunan open source yang di inisiasi oleh digital ocean sejak 2014. Tujuannya untuk mengajak semua developer seluruh dunia untuk berkontribusi ke ekosistem open source. Acara ini terbuka untuk siapa saja, baik untuk pemula hingga professional sekalipun. Berlangsung mulai dari tanggal 1 oktober hingga 31 oktober .
 
 Untuk Hacktoberfest 2019, SimpliDOTS mengadakan kompetisi sebagai berikut.
