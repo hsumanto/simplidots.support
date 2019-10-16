@@ -8,7 +8,7 @@ Hacktoberfest adalah acara tahunan open source yang di inisiasi oleh digital oce
 Untuk Hacktoberfest 2019, SimpliDOTS mengadakan kompetisi sebagai berikut.
 
 ### Hadiah: 
-2 buah Powerbank boneka, sangat lucu untuk 2 kontributor terbaik menurut penilaian juri.
+2 buah Powerbank boneka lucu untuk 2 kontributor terbaik menurut penilaian juri.
 
 *Catatan:* 
 Hadiah akan diserah terimakan di akhir keynote event
