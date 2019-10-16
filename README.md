@@ -10,29 +10,15 @@ Kami tantang kreativitas untuk meningkatkan SimpliDOTS Support dari segala sisi:
 
 
 ```markdown
-# Fungsional 
-# Kemudahan untuk pakai
-# UI & UX
-# SEO & SMO
-# Any other idea is really appreciated
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-
+*Fungsional* 
+*Kemudahan untuk pakai*
+*UI & UX*
+*SEO & SMO*
+*Any other idea is really appreciated*
 
 So be creative, be adventurous, be brave and be ready to get rewarded.
+
+```
 
 Contoh-contoh skenario seperti di bawah ini tapi jangan batasi imaginasi dan kreativitas, kalian boleh buat skenario lain, it is more than welcome:
 
