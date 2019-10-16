@@ -1,4 +1,9 @@
-## Kompetisi Hacktoberfest *SimpliDOTS Support*
+## Kompetisi Hacktoberfest 2019 *SimpliDOTS Support*
+
+###Apa itu Hacktoberfest?
+Hacktoberfest adalah acara tahunan open source yang di inisiasi oleh digital ocean sejak 2014. Tujuannya untuk mengajak semua developer seluruh dunia untuk berkontribusi ke ekosistem open source. Acara ini terbuka untuk siapa saja, baik untuk pemula hingga professional sekalipun. Berlangsung mulai dari tanggal 1 oktober hingga 31 oktober .
+
+Untuk Hacktoberfest 2019, SimpliDOTS mengadakan kompetisi sebagai berikut.
 
 ### Hadiah: 
 2 buah Powerbank boneka, sangat lucu untuk 2 kontributor terbaik menurut penilaian juri.
@@ -52,7 +57,7 @@ Contoh-contoh skenarionya bisa seperti di bawah ini tapi jangan batasi imaginasi
    - Gimana supaya SEO naik?
    - Gimana supaya optimized untuk social media?
 
-### Tata Cara
+### Cara ikut / Getting started
 
 1. Di tab Projects, untuk SimpliDOTS Support tambahkan ticket/card di kolom To do 
 dan mulai susun tantangan yang akan Anda lakukan.
