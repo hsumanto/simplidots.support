@@ -63,7 +63,7 @@ Contoh-contoh skenarionya bisa seperti di bawah ini tapi jangan batasi imaginasi
 >Sebelum berkontribusi ke project ini pastikan sudah mendaftar di website official [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
 1. Fork repository [SimpliDOTS Support](https://github.com/hsumanto/simplidots.support) (Tombol fork ada di pojok kanan atas repository)
-2. Clone hasil fork nya ke komputer anda.
+2. Clone hasil fork nya ke komputer Anda.
 ```markdown
 git clone https://github.com/USERNAME-GITHUB-ANDA/simplidots.support
 ```
@@ -82,8 +82,8 @@ git add .
 git commit -m 'PESAN COMMIT ANDA'
 git push origin <nama branch>
 ```
-7. Buat pull-request repository fork, dari akun Github anda. ( Klik tombol `New Pull Request` )
-8. Tunggu pull request anda untuk kami review.
+7. Buat pull-request repository fork, dari akun Github Anda. ( Klik tombol `New Pull Request` )
+8. Tunggu pull request Anda untuk kami review.
 
 ### Juri:
 
