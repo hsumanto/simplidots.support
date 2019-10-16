@@ -65,7 +65,7 @@ Contoh-contoh skenarionya bisa seperti di bawah ini tapi jangan batasi imaginasi
 1. Fork repository [SimpliDOTS Support](https://github.com/hsumanto/simplidots.support) (Tombol fork ada di pojok kanan atas repository)
 2. Clone hasil fork nya ke komputer anda.
 ```markdown
-git clone https://github.com/USERNAME-GITHUB-ANDA/mysimplidots.support
+git clone https://github.com/USERNAME-GITHUB-ANDA/simplidots.support
 ```
 3. Check out branch develop. 
 ```markdown
