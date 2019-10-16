@@ -36,7 +36,7 @@ Contoh-contoh skenarionya bisa seperti di bawah ini tapi jangan batasi imaginasi
    - Perbaiki CSS sesuai dgn SimpliDOTS style guide 
    - Update User Interface lebih user friendly
    - Tambah animasi / design / custom icons
-   - Update typography dan warna
+   - Update typography dan warna sesuai [guideline](images/guideline-warna-simplidots.png)
    - Navigation / accessibility untuk mempermudah user berpindah antar content
    - Responsive & mobile friendliness
    - Interactivity atau animasi yang kreatif tapi performance masih cepat
