@@ -1,26 +1,21 @@
-# Kompetisi Hacktoberfest SimpliDOTS Support:
+## Kompetisi Hacktoberfest SimpliDOTS Support:
 
-## Hadiah: 
-2 buah Powerbank boneka, sangat lucu, cocok untuk dijadikan hadiah buat pacar untuk 2 kontribusi terbaik menurut penilaian juri.
+### Hadiah: 
+2 buah Powerbank boneka, sangat lucu, cocok untuk dijadikan hadiah buat pasang untuk 2 kontribusi terbaik menurut penilaian juri.
 
-## Tantangan:
+### Tantangan:
 
-Kami tantang kreativitas untuk meningkatkan SimpliDOTS Support dari segala sisi:
+Kami tantang kreativitas untuk meningkatkan SimpliDOTS Support bisa dari sisi:
 
-
-
-```markdown
-*Fungsional* 
-*Kemudahan untuk pakai*
-*UI & UX*
-*SEO & SMO*
-*Any other idea is really appreciated*
+- Fungsional (Functionality)
+- Kemudahan untuk pakai (Ease of Use)
+- UI & UX (User Interface & User Experience)
+- SEO & SMO (Search Engine Optimization & Social Media Optimization)
+- Ide-ide lain yang unik dan menarik (Any other ideas is really appreciate)
 
 So be creative, be adventurous, be brave and be ready to get rewarded.
 
-```
-
-Contoh-contoh skenario seperti di bawah ini tapi jangan batasi imaginasi dan kreativitas, kalian boleh buat skenario lain, it is more than welcome:
+Contoh-contoh skenarionya bisa seperti di bawah ini tapi jangan batasi imaginasi dan kreativitas kalian:
 
 1. Tambah fitur apa saja yg bisa mempermudah pengguna: 
 
@@ -55,28 +50,36 @@ Contoh-contoh skenario seperti di bawah ini tapi jangan batasi imaginasi dan kre
    - Gimana supaya SEO naik?
    - Gimana supaya optimized untuk social media?
 
-## Juri:
+### Tata Cara
+
+```markdown
+1 Di tab Projects, untuk SimpliDOTS Support tambahkan ticket/card di kolom To do dan mulai susun tantangan yang akan Anda lakukan.
+2 Ketika Anda mulai melakukan tantangan itu, pindahkan ticket/card ke kolom In progress. 
+3 Clone simplidots.support dari https://github.com/hsumanto/simplidots.support.git
+4 Check out branch develop. 
+5 Buat branch feature-xxx-yyy (xxx = tantangan, yyy = nama depan Anda)
+6 Commit kerjaan Anda berikut penjelasan di branch feature Anda.
+7 Pindahkan ticket/card dari kolom In progress ke Done ketika Anda selesai dengan tantangan Anda.
+
+Catatan: 
+Hanya ticket/card yang sudah Done yang berhak untuk ikut kompetisi dan
+akan dinilai oleh juri.
+
+```
+
+### Juri:
 
 - Sastra Nababan
 - Ifan Zalukhu
 
+### Disclaimer
 
-## Hactober SimpliDOTS Support
+Dengan mengikuti kompetisi ini, segala hal kekayaaan intelektual yang berkaitan dengan hasil kerja akan Anda commit ke project ini bersedia Anda kontribusikan untuk project ini.
 
-You can use the [editor on GitHub](https://github.com/hsumanto/mysimplidots.support/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hsumanto/mysimplidots.support/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Punya pertanyaan? Hubungi/WA kami: 
+
+- Ifan Zalukhu 081263667111
+- Hendy 08116261771.
