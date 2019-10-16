@@ -15,7 +15,7 @@ Hadiah akan diserah terimakan di akhir keynote event
 
 ### Tantangan:
 
-Kami tantang kreativitas untuk meningkatkan SimpliDOTS Support bisa dari sisi:
+Kami tantang kreativitas untuk meningkatkan [SimpliDOTS Support](https://support.simplidots.com/) bisa dari sisi:
 
 - Fungsional (Functionality)
 - Kemudahan untuk pakai (Ease of Use)
@@ -60,19 +60,30 @@ Contoh-contoh skenarionya bisa seperti di bawah ini tapi jangan batasi imaginasi
    - Gimana supaya optimized untuk social media?
 
 ### Cara ikut / Getting started
+>Sebelum berkontribusi ke project ini pastikan sudah mendaftar di website official [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
-1. Di tab Projects, untuk SimpliDOTS Support tambahkan ticket/card di kolom To do 
-dan mulai susun tantangan yang akan Anda lakukan.
-2. Ketika Anda mulai melakukan tantangan itu, pindahkan ticket/card ke kolom In progress. 
-3. Clone simplidots.support dari https://github.com/hsumanto/simplidots.support.git
-4. Check out branch develop. 
-5. Buat branch feature/xxx-yyy (xxx = tantangan, yyy = nama depan Anda, contoh feature/css-improvement-anton)
-6. Commit kerjaan Anda berikut penjelasan di branch feature Anda.
-7. Pindahkan ticket/card dari kolom In progress ke Done ketika Anda selesai dengan tantangan Anda.
-
-*Catatan:* 
-Hanya ticket/card yang sudah Done yang berhak untuk ikut kompetisi dan
-akan dinilai oleh juri.
+1. Fork repository [SimpliDOTS Support](https://github.com/hsumanto/simplidots.support) (Tombol fork ada di pojok kanan atas repository)
+2. Clone hasil fork nya ke komputer anda.
+```markdown
+git clone https://github.com/USERNAME-GITHUB-ANDA/mysimplidots.support
+```
+3. Check out branch develop. 
+```markdown
+git checkout develop
+```
+4. Buat branch baru, dengan format feature/xxx-yyy (xxx = tantangan, yyy = nama depan Anda, contoh feature/css-improvement-anton)
+```markdown
+git checkout -b <nama branch>
+```
+5. Mulai mengerjakan tantangan / perubahan
+6. Commit dan push jika perubahan sudah selesai dikerjakan
+```markdown
+git add .
+git commit -m 'PESAN COMMIT ANDA'
+git push origin <nama branch>
+```
+7. Buat pull-request repository fork, dari akun Github anda. ( Klik tombol `New Pull Request` )
+8. Tunggu pull request anda untuk kami review.
 
 ### Juri:
 
