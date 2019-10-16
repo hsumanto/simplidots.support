@@ -1,4 +1,61 @@
-## Welcome to SimpliDOTS Support
+# Hacktoberfest SimpliDOTS Support Competition:
+
+## Hadiah: 
+Powerbank boneka, very cute and suitable a present for boyfriend/girlfriend
+
+## Tantangan:
+
+Silahkan dicoba dan diterapkan apa saja yang bisa meningkatkan:
+
+- Fungsional 
+- Kemudahan untuk pakai
+- UI & UX
+- SEO & SMO
+
+Be creative, be adventurous, be brave and be ready to get rewarded.
+
+Beberapa contoh kasus:
+
+1. Tambah fitur apa saja yg bisa mempermudah pengguna: 
+
+	- Table of content (TOC) yang simpel, elegan dan mudah untuk dipakai
+	- Filter berdasarkan aplikasi
+	- Dukungan untuk dua bahasa EN dan ID dengan l8n
+
+2. Perbaikkan UI/UX: 
+   - Perbaiki CSS sesuai dgn SimpliDOTS style guide 
+   - Update User Interface lebih user friendly
+   - Tambah animasi / design / custom icons
+   - Update typography dan warna
+   - Navigation / accessibility untuk mempermudah user berpindah antar content
+   - Responsive & mobile friendliness
+   - Interactivity atau animasi yang kreatif tapi performance masih cepat
+
+3. Refactor / Grouping / Organize
+   - Organize project berdasarkan aplikasi / modulnya
+   - Refactor code
+   - tambahkan documentation / comment di dalam code 
+
+4. Perbaikkan untuk meningkatkan PWA rating
+   - Update performance
+   - Lazy load image & dependencies
+
+5. Perbaikkan Performa:
+   - Gimana request untuk imagenya lebih cepat? CDN? lazy load?
+   - Coba dicari yang paling banyak buang waktu request apa dan solusinya bagaimana?
+
+
+6. Perbaikkan SEO & SMO:
+   - Gimana supaya SEO naik?
+   - Gimana supaya optimized untuk social media?
+
+## Juri:
+
+- Sastra Nababan
+- Ifan Zalukhu
+
+
+## Hactober SimpliDOTS Support
 
 You can use the [editor on GitHub](https://github.com/hsumanto/mysimplidots.support/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
