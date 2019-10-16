@@ -1,7 +1,9 @@
 ## Kompetisi Hacktoberfest SimpliDOTS Support:
 
 ### Hadiah: 
-2 buah Powerbank boneka, sangat lucu, cocok untuk dijadikan hadiah buat pasang untuk 2 kontribusi terbaik menurut penilaian juri.
+2 buah Powerbank boneka, sangat lucu untuk 2 kontributor terbaik menurut penilaian juri.
+
+Catatan: Hadiah akan diserah terimakan di akhir keynote event
 
 ### Tantangan:
 
