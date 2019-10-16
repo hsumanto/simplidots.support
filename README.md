@@ -1,4 +1,4 @@
-## Kompetisi Hacktoberfest SimpliDOTS Support
+## Kompetisi Hacktoberfest *SimpliDOTS Support*
 
 ### Hadiah: 
 2 buah Powerbank boneka, sangat lucu untuk 2 kontributor terbaik menurut penilaian juri.
@@ -59,7 +59,7 @@ dan mulai susun tantangan yang akan Anda lakukan.
 2. Ketika Anda mulai melakukan tantangan itu, pindahkan ticket/card ke kolom In progress. 
 3. Clone simplidots.support dari https://github.com/hsumanto/simplidots.support.git
 4. Check out branch develop. 
-5. Buat branch feature-xxx-yyy (xxx = tantangan, yyy = nama depan Anda)
+5. Buat branch feature/xxx-yyy (xxx = tantangan, yyy = nama depan Anda, contoh feature/css-improvement-anton)
 6. Commit kerjaan Anda berikut penjelasan di branch feature Anda.
 7. Pindahkan ticket/card dari kolom In progress ke Done ketika Anda selesai dengan tantangan Anda.
 
