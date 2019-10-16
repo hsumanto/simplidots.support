@@ -1,3 +1,5 @@
+![Image](images/hacktoberfest.png)
+
 ## Kompetisi Hacktoberfest 2019 *SimpliDOTS Support*
 
 ### Apa itu Hacktoberfest?
