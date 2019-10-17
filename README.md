@@ -62,7 +62,7 @@ Contoh-contoh skenarionya bisa seperti di bawah ini tapi jangan batasi imaginasi
 ### Cara ikut / Getting started
 >Sebelum berkontribusi ke project ini pastikan sudah mendaftar di website official [Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
-1. Fork repository [SimpliDOTS Support](https://github.com/hsumanto/simplidots.support) (Tombol fork ada di pojok kanan atas repository)
+1. Fork repository [SimpliDOTS Support](https://github.com/hsumanto/simplidots.support) (Tombol fork ada di pojok kanan atas repository), atau bisa juga melalui link ini https://github.com/hsumanto/simplidots.support/fork
 2. Clone hasil fork nya ke komputer Anda.
 ```markdown
 git clone https://github.com/USERNAME-GITHUB-ANDA/simplidots.support
