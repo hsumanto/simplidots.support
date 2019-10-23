@@ -9,6 +9,15 @@
         <link rel="preload" href="images/favicon.png" class="lazyload"s="image">
         <link rel="preload" sizes="72x72" href="imagens/favicon.png" class="lazyload"s="image">
         <link rel="preload" sizes="114x114" href="images/favicon.png" class="lazyload"s="image">
+        <!-- file Manifest -->
+        <link rel="manifest" href="/manifest.json">
+        <!-- CODELAB: Add iOS meta tags and icons -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Weather PWA">
+        <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">
+        <!-- CODELAB: Add meta theme-color -->
+        <meta name="theme-color" content="#2F3BA2" />
         <meta name="description" content="SimpliDOTS revolutionizes distribution business by simplying the processes, automating the salesforce, with the goal
     to boost to boost sales performance, revenue and profit margin.">
         <meta name="author" content="SimpliDOTS - Distribution Made Easy">
@@ -4495,10 +4504,22 @@
             </div>
         </div>
 
-
-
         <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+        <!-- File Servise-Worker.js -->
+        <!-- CODELAB: Add the install script here -->
+        <script>
+          // CODELAB: Register service worker.
+          
+          if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+              navigator.serviceWorker.register('service-worker.js')
+                  .then((reg) => {
+                    console.log('Service worker registered.', reg);
+                  });
+            });
+          }
+        </script>
     </body>
 </html>
