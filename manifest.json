@@ -1,25 +1,21 @@
 {
-    "name": "MySimpli Support",
-    "short_name": "Simpli Support",
-    "icons": [{
-      "src": "/images/icons/icon-128x128.png",
-        "sizes": "128x128",
-        "type": "image/png"
-      }, {
-        "src": "/images/icons/icon-144x144.png",
-        "sizes": "144x144",
-        "type": "image/png"
-      }, {
-        "src": "/images/icons/icon-152x152.png",
-        "sizes": "152x152",
-        "type": "image/png"
-      }, {
-        "src": "/images/logo/icon-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      }],
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "#3E4EB8",
-    "theme_color": "#2F3BA2"
-  }
+  "name": "My Support Simplidots.com",
+  "short_name": "Support.Simplidots.com",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#E7342E",
+  "theme_color": "#E7342E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/logo/simplidots_192x192px.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/logo/simplidots_512x512px.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

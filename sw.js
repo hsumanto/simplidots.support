@@ -27,7 +27,17 @@ const FILES_TO_CACHE = [
   '/index.html',
   '/scripts/app.js',
   '/scripts/install.js',
-  '/scripts/luxon-1.11.4.js'
+  '/scripts/luxon-1.11.4.js',
+  'images/simplidots_support_flat.png',
+  'images/retail/search.png',
+  'images/simplidots_retail_flat.png',
+  'images/retail/install.png',
+  'images/retail/login_120.png',
+  'images/retail/register_120.png',
+  'images/retail/scan_qr_code.jpg',
+  'images/retail/scan_qr_code_confirm.jpg',
+  'images/retail/scan_qr_code_success_120.png',
+  
 ];
 
 self.addEventListener('install', (evt) => {
