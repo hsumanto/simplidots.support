@@ -1,0 +1,66 @@
+
+ .order-waiting-delivery {
+     color:#02aca6;
+ }    
+ .order-on-delivery {
+     color:#fdb207;
+ }    
+ .order-delivered {
+     color:#42b74c;
+ }    
+ .payment-completed {
+     color:#42b74c;
+ }
+ .payment-active {
+     color:#fdb207;
+ }
+ .payment-cancelled {
+     color:#e7342e;
+ }
+
+
+ .faqHeader {
+     font-size: 20px;
+     margin: 20px;
+ }
+ .img-mobile {
+     height: 450px !important;
+ }
+ .img-logo {
+     max-height: 80px !important; /* or to whatever you want here */
+ }
+ .img-branding {
+     max-height: 20px !important; /* or to whatever you want here */
+     max-width: 100px !important;
+ }
+ .img-branding2{
+     max-height: 35px !important;
+ }
+ .img-icon{
+     max-height: 20px !important;
+ }
+ .panel-heading [data-toggle="collapse"]:after {
+     font-family: 'Century Gothic';
+     content: "e072"; /* "play" icon */
+     float: right;
+     color: #F58723;
+     font-size: 16px;
+     line-height: 18px;
+     /* rotate "play" icon from > (right arrow) to down arrow */
+     -webkit-transform: rotate(-90deg);
+     -moz-transform: rotate(-90deg);
+     -ms-transform: rotate(-90deg);
+     -o-transform: rotate(-90deg);
+     transform: rotate(-90deg);
+ }
+
+ .panel-heading [data-toggle="collapse"].collapsed:after {
+     /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+     -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+     -ms-transform: rotate(90deg);
+     -o-transform: rotate(90deg);
+     transform: rotate(90deg);
+     color: lightseagreen;   
+ }
+        

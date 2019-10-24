@@ -2,6 +2,7 @@
   "name": "My Support Simplidots.com",
   "short_name": "Support.Simplidots.com",
   "start_url": "/index.html",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#E7342E",
   "theme_color": "#E7342E",

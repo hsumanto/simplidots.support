@@ -31,74 +31,8 @@
         <link defer rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
         <title>SimpliDOTS</title>
-
-        <style>
-        .order-waiting-delivery {
-            color:#02aca6;
-        }    
-        .order-on-delivery {
-            color:#fdb207;
-        }    
-        .order-delivered {
-            color:#42b74c;
-        }    
-        .payment-completed {
-            color:#42b74c;
-        }
-        .payment-active {
-            color:#fdb207;
-        }
-        .payment-cancelled {
-            color:#e7342e;
-        }
-
-
-        .faqHeader {
-            font-size: 20px;
-            margin: 20px;
-        }
-        .img-mobile {
-            height: 450px !important;
-        }
-        .img-logo {
-            max-height: 80px !important; /* or to whatever you want here */
-        }
-        .img-branding {
-            max-height: 20px !important; /* or to whatever you want here */
-        }
-        .img-branding2{
-            max-height: 35px !important;
-        }
-        .img-icon{
-            max-height: 20px !important;
-        }
-        .panel-heading [data-toggle="collapse"]:after {
-            font-family: 'Century Gothic';
-            content: "e072"; /* "play" icon */
-            float: right;
-            color: #F58723;
-            font-size: 16px;
-            line-height: 18px;
-            /* rotate "play" icon from > (right arrow) to down arrow */
-            -webkit-transform: rotate(-90deg);
-            -moz-transform: rotate(-90deg);
-            -ms-transform: rotate(-90deg);
-            -o-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-        }
-
-        .panel-heading [data-toggle="collapse"].collapsed:after {
-            /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-            -webkit-transform: rotate(90deg);
-            -moz-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-            -o-transform: rotate(90deg);
-            transform: rotate(90deg);
-            color: lightseagreen;   
-        }
-        </style>
-        
-        <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >    
+        <link rel="stylesheet" href="/main.css">
+        <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" crossorigin>    
         <!-- file Manifest -->
         <link rel="manifest" href="/manifest.json">
         <!-- CODELAB: Add iOS meta tags and icons -->
@@ -952,7 +886,7 @@
                                         <li>
                                             Tampilan detail profil Customer
                                         </li>
-                                        <img src="images/customer-profile.png" class="img-mobile img-thumbnail">
+                                        <img src="images/customer-profile.png" class="img-mobile img-thumbnail" />
                                     </ol>
                                 </div>
                             </div>
@@ -4515,7 +4449,7 @@
           
           if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-              navigator.serviceWorker.register('sw.js')
+              navigator.serviceWorker.register('/sw.js')
                   .then((reg) => {
                     console.log('Service worker registered.', reg);
                   });
